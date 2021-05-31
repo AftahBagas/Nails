@@ -62,7 +62,11 @@ async def e(o):
                 text=ALIVEMSG,
                 thumb=InputWebDocument(ULTROID_PIC, 0, "image/jpeg", []),
                 buttons=[
-                    [Button.url(text="Support Group", url="t.me/TeamSquadUserbotSupport")],
+                    [
+                        Button.url(
+                            text="Support Group", url="t.me/TeamSquadUserbotSupport"
+                        )
+                    ],
                     [
                         Button.url(
                             text="Repo",
