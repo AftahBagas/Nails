@@ -9,9 +9,9 @@ ENV TZ=Asia/Kolkata
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt-get autoremove --purge
 
-RUN git clone -b dev https://github.com/TeamUltroid/Ultroid.git /root/TeamUltroid/
+RUN git clone -b dev https://github.com/AftahBagas/Nails.git /root/AftahBagas/
 
-WORKDIR /root/TeamUltroid/
+WORKDIR /root/AftahBagas/
 
 RUN pip3 install --no-cache-dir -r requirements.txt
 RUN npm install -g npm@7.12.1 -g
