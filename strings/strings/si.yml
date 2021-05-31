@@ -19,13 +19,13 @@ autopic_2: "`{}` යන්නට කිසිවක් හමු නොවීය
 autopic_3: "`{}` යන ඔබ සෙවූ දෙයට අදාලව  collection එකක්ම හමු විය !\nAutopic ආරම්භ කරමින් !"
 
 # inline
-inline_1: "[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/ultroidsupport)\n\n
-**Hᴇʟᴘ Mᴇɴᴜ Oғ {}.\n\n
+inline_1: "[Nᴀɪʟs Sᴜᴘᴘᴏʀᴛ](t.me/ultroidsupport)\n\n
+**Hᴇʟᴘ Mᴇɴᴜ Pᴇɴɢɢᴜɴᴀ {}.\n\n
 Pʟᴜɢɪɴs ~ {}**"
-inline_2: "[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/ultroidsupport)\n\n
-**Hᴇʟᴘ Mᴇɴᴜ Oғ {}.\n\n
+inline_2: "[Nᴀɪʟs Sᴜᴘᴘᴏʀᴛ](t.me/ultroidsupport)\n\n
+**Hᴇʟᴘ Mᴇɴᴜ Pᴇɴɢɢᴜɴᴀ {}.\n\n
 Aᴅᴅᴏɴs ~ {}**"
-inline_3: "[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/ultroidsupport)\n\n
+inline_3: "[Nᴀɪʟs Sᴜᴘᴘᴏʀᴛ](t.me/ultroidsupport)\n\n
 **Hᴇʟᴘ Mᴇɴᴜ Oғ {}.\n\n
 Aᴅᴅᴏɴs ~ {}\n\n
 Gᴏ Aɴᴅ Aᴅᴅ `ADDONS` Vᴀʀ Wɪᴛʜ Vᴀʟᴜᴇ Tʀᴜᴇ**"
@@ -58,18 +58,18 @@ afk_7: "{} යන හේතුව නිසා මම දැන් AFK"
 afk_8: "මම දැන් AFK."
 
 # bot
-alive_1: "**The Ultroid Userbot...**\n\n
+alive_1: "**The Nᴀɪʟs Userbot...**\n\n
 **{}**\n\n
 ┏━━━━━━━━━━━━━━━━━━━━━\n
 ┣ **Owner** - `{}`\n
 ┣ **Version** - `{}`\n
-┣ **Py-Ultroid** - `{}`\n
+┣ **Py-Nᴀɪʟs** - `{}`\n
 ┣ **UpTime** - `{}`\n
 ┣ **Python** - `{}`\n
 ┣ **Telethon** - `{}`\n
 ┣ **Branch** - `{}`\n
 ┗━━━━━━━━━━━━━━━━━━━━━"
-log: " Ultroid userbot ගේ **Heroku** Logs.\n[මෙතනත් ]({}) paste කර ඇත!"
+log: " Nails userbot ගේ **Heroku** Logs.\n[මෙතනත් ]({}) paste කර ඇත!"
 ping: "** වැඩ වැඩ මහත්තයො ** Pong !! ** `{}ms`\n**Uptime** - `{}`"
 usage: "**⚙️ Dyno භාවිතය ⚙️**:\n\n
  -> **{}** `ගේ Dyno භාවිතය`:\n
@@ -102,7 +102,7 @@ chats_2: "`මේ චැට් එක මකා දැමිය නොහැක`
 chats_3: "`මම පරිපාලක නෙමෙයි`"
 chats_4: "#Deleted\nමකාදැමුවා {}"
 chats_5: "ඔයාගේ [{}]({}) Group එක හැඩුවා ලොක්කා..!"
-chats_6: "@TeamUltroid සමඟ එකතු වන්න"
+chats_6: "@TeamNails සමඟ එකතු වන්න"
 
 # converter
 cvt_1: "media/Document එකකට රිප්ලයි කරන්න."
