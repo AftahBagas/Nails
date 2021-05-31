@@ -56,23 +56,23 @@ async def e(o):
         )
         res = [
             await b.article(
-                title="Ultroid Userbot",
-                url="https://t.me/TeamUltroid",
+                title="Nails Userbot",
+                url="https://t.me/TeamNails",
                 description="Userbot | Telethon ",
                 text=ALIVEMSG,
                 thumb=InputWebDocument(ULTROID_PIC, 0, "image/jpeg", []),
                 buttons=[
-                    [Button.url(text="Support Group", url="t.me/UltroidSupport")],
+                    [Button.url(text="Support Group", url="t.me/TeamSquadUserbotSupport")],
                     [
                         Button.url(
                             text="Repo",
-                            url="https://github.com/Teamultroid/Ultroid",
+                            url="https://github.com/AftahBagas/Nails",
                         ),
                     ],
                 ],
             ),
         ]
-        await o.answer(res, switch_pm=f"👥 ULTROID PORTAL", switch_pm_param="start")
+        await o.answer(res, switch_pm=f"👥 NAILS PORTAL", switch_pm_param="start")
 
 
 @in_pattern("ultd")
@@ -95,17 +95,17 @@ async def inline_handler(event):
         ),
         buttons=[
             [
-                Button.inline("• Pʟᴜɢɪɴs", data="hrrrr"),
-                Button.inline("• Aᴅᴅᴏɴs", data="frrr"),
+                Button.inline("◉ Pʟᴜɢɪɴs", data="hrrrr"),
+                Button.inline("◉ Aᴅᴅᴏɴs", data="frrr"),
             ],
             [
-                Button.inline("Oᴡɴᴇʀ•ᴛᴏᴏʟꜱ", data="ownr"),
-                Button.inline("Iɴʟɪɴᴇ•Pʟᴜɢɪɴs", data="inlone"),
+                Button.inline("Oᴡɴᴇʀ◉ᴛᴏᴏʟꜱ", data="ownr"),
+                Button.inline("Iɴʟɪɴᴇ◉Pʟᴜɢɪɴs", data="inlone"),
             ],
             [
                 Button.url("⚙️Sᴇᴛᴛɪɴɢs⚙️", url=f"https://t.me/{bnn}?start=set"),
             ],
-            [Button.inline("••Cʟᴏꜱᴇ••", data="close")],
+            [Button.inline("◉ Cʟᴏꜱᴇ ◉", data="close")],
         ],
     )
     await event.answer([result], gallery=True)
@@ -148,14 +148,14 @@ async def setting(event):
         link_preview=False,
         buttons=[
             [
-                Button.inline("•Pɪɴɢ•", data="pkng"),
-                Button.inline("•Uᴘᴛɪᴍᴇ•", data="upp"),
+                Button.inline("◉ Pɪɴɢ•", data="pkng"),
+                Button.inline("◉ Uᴘᴛɪᴍᴇ•", data="upp"),
             ],
             [
-                Button.inline("•Rᴇsᴛᴀʀᴛ•", data="rstrt"),
-                Button.inline("•Uᴘᴅᴀᴛᴇ•", data="doupdate"),
+                Button.inline("◉ Rᴇsᴛᴀʀᴛ•", data="rstrt"),
+                Button.inline("◉ Uᴘᴅᴀᴛᴇ•", data="doupdate"),
             ],
-            [Button.inline("« Bᴀᴄᴋ", data="open")],
+            [Button.inline("< Bᴀᴄᴋ", data="open")],
         ],
     )
 
@@ -181,8 +181,8 @@ async def _(event):
             get_string("upd_5"),
             file="ultroid_updates.txt",
             buttons=[
-                [Button.inline("• Uᴘᴅᴀᴛᴇ Nᴏᴡ •", data="updatenow")],
-                [Button.inline("« Bᴀᴄᴋ", data="ownr")],
+                [Button.inline("◉ Uᴘᴅᴀᴛᴇ Nᴏᴡ •", data="updatenow")],
+                [Button.inline("< Bᴀᴄᴋ", data="ownr")],
             ],
         )
         remove(f"ultroid_updates.txt")
@@ -203,14 +203,14 @@ async def _(event):
     start = datetime.now()
     end = datetime.now()
     ms = (end - start).microseconds / 1000
-    pin = f"🌋Pɪɴɢ = {ms}ms"
+    pin = f"⚡Pɪɴɢ = {ms}ms"
     await event.answer(pin, cache_time=0, alert=True)
 
 
 @callback("upp")
 async def _(event):
     uptime = grt(time.time() - start_time)
-    pin = f"🙋Uᴘᴛɪᴍᴇ = {uptime}"
+    pin = f"⏱️Uᴘᴛɪᴍᴇ = {uptime}"
     await event.answer(pin, cache_time=0, alert=True)
 
 
@@ -387,12 +387,12 @@ async def opner(event):
     bnn = asst.me.username
     buttons = [
         [
-            Button.inline("• Pʟᴜɢɪɴs ", data="hrrrr"),
-            Button.inline("• Aᴅᴅᴏɴs", data="frrr"),
+            Button.inline("◉ Pʟᴜɢɪɴs ", data="hrrrr"),
+            Button.inline("◉ Aᴅᴅᴏɴs", data="frrr"),
         ],
         [
-            Button.inline("Oᴡɴᴇʀ•Tᴏᴏʟꜱ", data="ownr"),
-            Button.inline("Iɴʟɪɴᴇ•Pʟᴜɢɪɴs", data="inlone"),
+            Button.inline("Oᴡɴᴇʀ◉Tᴏᴏʟꜱ", data="ownr"),
+            Button.inline("Iɴʟɪɴᴇ◉Pʟᴜɢɪɴs", data="inlone"),
         ],
         [
             Button.url(
@@ -400,7 +400,7 @@ async def opner(event):
                 url=f"https://t.me/{bnn}?start={ultroid_bot.me.id}",
             ),
         ],
-        [Button.inline("••Cʟᴏꜱᴇ••", data="close")],
+        [Button.inline("◉ Cʟᴏꜱᴇ ◉", data="close")],
     ]
     z = []
     for x in LIST.values():
@@ -447,17 +447,17 @@ async def on_plug_in_callback_query_handler(event):
         reply_pop_up_alert = f"{plugin_name} has no detailed help..."
     else:
         reply_pop_up_alert = help_string
-    reply_pop_up_alert += "\n© @TeamUltroid"
+    reply_pop_up_alert += "\n© @TeamNails"
     buttons = [
         [
             Button.inline(
-                "« Sᴇɴᴅ Pʟᴜɢɪɴ »",
+                "< Sᴇɴᴅ Pʟᴜɢɪɴ >",
                 data=f"sndplug_{(event.data).decode('UTF-8')}",
             )
         ],
         [
-            Button.inline("« Bᴀᴄᴋ", data="back"),
-            Button.inline("••Cʟᴏꜱᴇ••", data="close"),
+            Button.inline("< Bᴀᴄᴋ", data="back"),
+            Button.inline("◉ Cʟᴏꜱᴇ ◉", data="close"),
         ],
     ]
     try:
@@ -506,17 +506,17 @@ async def on_plug_in_callback_query_handler(event):
         reply_pop_up_alert = f"{plugin_name} has no detailed help..."
     else:
         reply_pop_up_alert = help_string
-    reply_pop_up_alert += "\n© @TeamUltroid"
+    reply_pop_up_alert += "\n© @TeamNails"
     buttons = [
         [
             Button.inline(
-                "« Sᴇɴᴅ Pʟᴜɢɪɴ »",
+                "< Sᴇɴᴅ Pʟᴜɢɪɴ >",
                 data=f"sndplug_{(event.data).decode('UTF-8')}",
             )
         ],
         [
-            Button.inline("« Bᴀᴄᴋ", data="buck"),
-            Button.inline("••Cʟᴏꜱᴇ••", data="close"),
+            Button.inline("< Bᴀᴄᴋ", data="buck"),
+            Button.inline("◉ Cʟᴏꜱᴇ ◉", data="close"),
         ],
     ]
     try:
@@ -569,12 +569,12 @@ def page_num(page_number, loaded_plugins, prefix, type):
         ] + [
             (
                 Button.inline(
-                    "« Pʀᴇᴠɪᴏᴜs",
+                    "< Pʀᴇᴠɪᴏᴜs",
                     data=f"{prefix}_prev({modulo_page})",
                 ),
-                Button.inline("« Bᴀᴄᴋ »", data="open"),
+                Button.inline("< Bᴀᴄᴋ >", data="open"),
                 Button.inline(
-                    "Nᴇxᴛ »",
+                    "Nᴇxᴛ >",
                     data=f"{prefix}_next({modulo_page})",
                 ),
             ),
