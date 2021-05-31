@@ -19,18 +19,18 @@ autopic_2: "Tidak ada hasil yang ditemukan untuk `{}`"
 autopic_3: "Mendapatkan koleksi `{}` yang terkait dengan penelusuran Anda !\nMemulai Autopic !"
 
 # inline
-inline_1: "[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/ultroidsupport)\n\n
-**Hᴇʟᴘ Mᴇɴᴜ Oғ {}.\n\n
+inline_1: "[Nᴀɪʟs Sᴜᴘᴘᴏʀᴛ](t.me/TeamSquadUserbotSupport)\n\n
+**Mᴇɴᴜ Hᴇʟᴘ Pᴇɴɢɢᴜɴᴀ {}.\n\n
 Pʟᴜɢɪɴs ~ {}**"
-inline_2: "[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/ultroidsupport)\n\n
-**Hᴇʟᴘ Mᴇɴᴜ Oғ {}.\n\n
+inline_2: "[Nᴀɪʟs Sᴜᴘᴘᴏʀᴛ](t.me/TeamSquadUserbotSupport)\n\n
+**Mᴇɴᴜ Hᴇʟᴘ Pᴇɴɢɢᴜɴᴀ {}.\n\n
 Aᴅᴅᴏɴs ~ {}**"
-inline_3: "[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/ultroidsupport)\n\n
+inline_3: "[Nᴀɪʟs Sᴜᴘᴘᴏʀᴛ](t.me/TeamSquadUserbotSupport)\n\n
 **Hᴇʟᴘ Mᴇɴᴜ Oғ {}.\n\n
 Aᴅᴅᴏɴs ~ {}\n\n
 Pᴇʀɢɪ Dᴀɴ Tᴀᴍʙᴀʜᴋᴀɴ `ADDONS` Vᴀʀ Dᴇɴɢᴀɴ Vᴀʟᴜᴇ Tʀᴜᴇ**"
 inline_4: "** Bᴏᴛ Oғ {}\n\nMᴀɪɴ Mᴇɴᴜ\n\nPʟᴜɢɪɴs ~ {}\nAᴅᴅᴏɴs ~ {}\nTᴏᴛᴀʟ Cᴏᴍᴍᴀɴᴅs ~ {}**"
-inline_5: "**Mᴇɴᴜ Tᴇʟᴀʜ Dɪᴛᴜᴛᴜᴘ**"
+inline_5: "**Mᴇɴᴜ Sᴜᴅᴀʜ Dɪᴛᴜᴛᴜᴘ**"
 
 # tagnotif
 tagnot_1: "{} menandai anda dalam {}\n\n```{}```\n\n[📨Message📨]({})"
@@ -46,10 +46,10 @@ Karena ~ {}`"
 afk_2: "#AFK\n
 Menyetel AFK mode ke False.\n
 AFK untuk {}`"
-afk_3: "Gua lagi AFK.\n
+afk_3: "Aku Lagi AFK.\n
 Terakhir dilihat {} yang lalu.`\n\n
 **Karena:** `{}`"
-afk_4: "`Gua lagi AFK.\n\n
+afk_4: "`Aku lagi AFK.\n\n
 Terakhir dilihat {} yang lalu.`"
 afk_5: "`AFK dulu.`\n\n
 **Karena:** `{}`"
@@ -58,7 +58,7 @@ afk_7: "Lagi Afk karena {}"
 afk_8: "Lagi AFK."
 
 # bot
-alive_1: "**The Ultroid Userbot...**\n\n
+alive_1: "**The Nails Userbot...**\n\n
 **{}**\n\n
 ┏━━━━━━━━━━━━━━━━━━━━━\n
 ┣ **Pemilik** - `{}`\n
@@ -68,7 +68,7 @@ alive_1: "**The Ultroid Userbot...**\n\n
 ┣ **Telethon** - `{}`\n
 ┣ **Branch** - `{}`\n
 ┗━━━━━━━━━━━━━━━━━━━━━"
-log: "**Heroku** Ultroid Logs.\nPasted [here]({}) too!"
+log: "**Heroku** Nails Logs.\nPasted [here]({}) too!"
 ping: "**Pong !!** `{}ms`\n**Uptime** - `{}`"
 usage: "**⚙️ Dyno Usage ⚙️**:\n\n
  -> `Pemakaian Dyno Untuk`  **{}**:\n
