@@ -32,7 +32,7 @@ async def assistant(event):
         bnn = (await asst.get_me()).username
         return await event.reply(
             "`I dont work in groups`",
-            buttons=[Button.url("⚙️Sᴛᴀʀᴛ⚙️", url=f"https://t.me/{bnn}?start=set")],
+            buttons=[Button.url("⭐Sᴛᴀʀᴛ⭐", url=f"https://t.me/{bnn}?start=set")],
         )
     else:
         if not is_added(event.sender_id) and event.sender_id not in sed:
@@ -82,12 +82,12 @@ async def ultroid(event):
         get_string("ast_3").format(name),
         buttons=[
             [
-                Button.inline("Language 🌐", data="lang"),
-                Button.inline("Sᴇᴛᴛɪɴɢs ⚙️", data="setter"),
+                Button.inline("Language 🌍", data="lang"),
+                Button.inline("Sᴇᴛᴛɪɴɢs 🧰", data="setter"),
             ],
             [
-                Button.inline("Sᴛᴀᴛs ✨", data="stat"),
-                Button.inline("Bʀᴏᴀᴅᴄᴀsᴛ 📻", data="bcast"),
+                Button.inline("Sᴛᴀᴛs ⭐", data="stat"),
+                Button.inline("Bʀᴏᴀᴅᴄᴀsᴛ 📼", data="bcast"),
             ],
         ],
     )
@@ -103,12 +103,12 @@ async def ultroid(event):
         get_string("ast_3").format(OWNER_NAME),
         buttons=[
             [
-                Button.inline("Language 🌐", data="lang"),
-                Button.inline("Sᴇᴛᴛɪɴɢs ⚙️", data="setter"),
+                Button.inline("Language 🌍", data="lang"),
+                Button.inline("Sᴇᴛᴛɪɴɢs 🧰", data="setter"),
             ],
             [
-                Button.inline("Sᴛᴀᴛs ✨", data="stat"),
-                Button.inline("Bʀᴏᴀᴅᴄᴀsᴛ 📻", data="bcast"),
+                Button.inline("Sᴛᴀᴛs ⭐", data="stat"),
+                Button.inline("Bʀᴏᴀᴅᴄᴀsᴛ 📼", data="bcast"),
             ],
         ],
     )
